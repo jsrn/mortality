@@ -24,7 +24,7 @@ $(function() {
     var daysSoFar = now.diff(then, 'days');
     var daysTotal = 29638;
     var fraction = daysSoFar / daysTotal;
-    var hue = 255 - (fraction * 255);
+    var hue = fraction * 255;
     hue = hue.toFixed(0);
     $(this).css("background-color", "rgb(" + hue + "," + hue + "," + hue + ")");
   });
