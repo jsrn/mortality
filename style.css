@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.person {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
