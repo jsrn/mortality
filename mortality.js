@@ -13,6 +13,11 @@ var people = [
     handle: "m",
     birthday: "1992-06-03",
     url: "#"
+  }, 
+  {
+    handle: "bdoner", 
+    birthday: "1992-06-05",
+    url: "https://github.com/bdoner"
   }
 ]
 
